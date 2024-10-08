@@ -23,6 +23,7 @@ module.exports = {
 	ignorePatterns: ['**/*.js'],
 	rules: {
 		// Next.js
+		'no-multiple-empty-lines': 'off'
 		'@typescript-eslint/triple-slash-reference': 'off',
 		'react/react-in-jsx-scope': 'off',
 
