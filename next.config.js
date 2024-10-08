@@ -12,7 +12,6 @@ const config = {
         return [
             {
                 source: '/post/:slug',
-                destination: 'https://old.alistair.blog/post/:slug',
                 permanent: true,
             },
         ];
