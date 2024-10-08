@@ -4,19 +4,10 @@
  * @type {import('next').NextConfig}
  **/
 const config = {
-	typescript: {
-		ignoreBuildErrors: true,
-	},
-
-	async redirects() {
-		return [
-			{
-				source: '/post/:slug',
-				destination: '/post/:slug',
-				permanent: true,
-			},
-		];
-	},
+    typescript: {
+        ignoreBuildErrors: true,
+    },
+    // Remove the redirects section
 };
 
 module.exports = config;
